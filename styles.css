@@ -1,6 +1,7 @@
 *,
 *::before,
-*::after {
+*::after
+{
   box-sizing: border-box;
 }
 
@@ -18,15 +19,14 @@
 body
 {
   font-family: var(--font-family);
-  background-color: #E5E5E5;
   margin: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
 
 }
 
-.section {
-  box-sizing: border-box;
+.section
+{
+
   margin: 0 auto;
 
   width: 1200px;
@@ -38,7 +38,6 @@ body
 
 header
 {
-  box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
   height: 80px;
@@ -107,7 +106,6 @@ span
 
 .topnav
 {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +146,6 @@ span
 
 .container
 {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -191,7 +188,6 @@ button
 
 .lorens
 {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +245,7 @@ p
   justify-content: center;
   gap: 30px;
   width: 1200px;
-  
+
 }
 
 
@@ -263,7 +259,6 @@ h2
 
 .team-members
 {
-  box-sizing: border-box;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -333,7 +328,6 @@ h2
 
 .footer
 {
-  box-sizing: border-box;
   width: 1200px;
   margin: 0 auto;
   height: 252px;
@@ -399,7 +393,6 @@ h2
 
 .button-nav
 {
-  box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
   list-style-type: none;
@@ -560,33 +553,22 @@ h2
 
 .services
 {
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-}
-
-.services
-{
-  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   gap: calc(10%/3);
-
+  margin-top: 50px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
 
 
-.website,
-.dizain,
-.apps,
-.marketing,
-.app-boxes,
-.website-borders,
-.dizajn-book,
-.marketing-lab,
-.app-business
+.template
 {
   background: #ffffff;
   width: 370px;
