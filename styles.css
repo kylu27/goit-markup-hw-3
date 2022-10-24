@@ -54,7 +54,7 @@ span
 	color: var(--font-color);
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16.41px;
+	line-height: 1.14;
 
 }
 
@@ -69,7 +69,7 @@ span
 {
 	color: var(--font-p-color);
 	text-decoration: none;
-	line-height: 16.41px;
+	line-height: 1.14;
 }
 
 
@@ -98,7 +98,7 @@ span
 	text-decoration: none;
 	font-size: 14px;
 	list-style-type: none;
-	line-height: 16.41px;
+	line-height: 1.14;
 }
 
 
@@ -116,7 +116,7 @@ span
 	font-weight: 700;
 	color: var(--font-color);
 	text-decoration: none;
-	line-height: 30.52px;
+	line-height: 1.2;
 	font-size: 24px;
 	margin-right: 93px;
 }
@@ -165,7 +165,7 @@ span
 	height: 120px;
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 60px;
+	line-height: 1.36;
 }
 
 
@@ -181,6 +181,8 @@ button
 	border-radius: 4px;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-color: var(--extra-color);
+	line-height: 1.87;
+	letter-spacing: 0.06em;
 }
 
 .lorens
@@ -207,7 +209,8 @@ h4
 	font-family: var(--font-family);
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 16.41px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
 }
 
 .item p
@@ -216,15 +219,10 @@ h4
 	color: var(--font-p-color);
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 16.41px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	gap: 30px;
 
-}
-
-p
-{
-	line-height: 24px;
 }
 
 .our-job
@@ -255,7 +253,8 @@ h2
 	font-family: var(--font-family);
 	font-size: 36px;
 	font-weight: 700;
-	line-height: 42.19px;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
 }
 
 .team-members
@@ -287,7 +286,7 @@ h2
 	font-family: var(--font-family);
 	font-size: 36px;
 	font-weight: 700;
-	line-height: 42.19px;
+	line-height: 1.16;
 }
 
 .teamates
@@ -315,7 +314,8 @@ h2
 	justify-content: center;
 	margin-top: 30px;
 	margin-bottom: 10px;
-
+	line-height: 1.18;
+	letter-spacing: 0.03em;
 }
 
 .teamates p
@@ -325,6 +325,9 @@ h2
 	justify-content: center;
 	margin-top: 10px;
 	margin-bottom: 30px;
+	line-height: 1.18;
+	font-size: 16px;
+	letter-spacing: 0.03em;
 }
 
 footer
@@ -358,7 +361,7 @@ footer
 	font-weight: 400;
 	font-style: normal;
 	color: var(--footer-font-extra);
-	line-height: 24px;
+	line-height: 1.7;
 
 }
 
@@ -370,7 +373,7 @@ footer
 	font-weight: 400;
 	font-style: normal;
 	color: var(--active-font);
-	line-height: 24px;
+	line-height: 1.7;
 	text-decoration: none;
 
 
@@ -382,9 +385,10 @@ footer
 	font-weight: 700;
 	color: var(--active-font);
 	text-decoration: none;
-	line-height: 30.52px;
 	font-style: normal;
+	line-height: 1.2;
 	font-size: 26px;
+	letter-spacing: 0.03em;
 
 
 
