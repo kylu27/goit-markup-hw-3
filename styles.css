@@ -27,7 +27,6 @@ body
 .section
 {
 	margin: 0 auto;
-	width: 1200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -147,7 +146,7 @@ span
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	width: 1200px;
+
 	margin: 0 auto;
 	height: 600px;
 	background-color: #2F303A;
@@ -263,10 +262,11 @@ h2
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	width: 1200px;
+	width: 100%;
 	height: 648px;
 	background-color: #F5F4FA;
 	margin-top: 94px;
+	text-align: center;
 }
 
 .people
@@ -287,10 +287,12 @@ h2
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 1.16;
+
 }
 
 .teamates
 {
+	display: block;
 	background-color: var(--active-font);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	width: 270px;
@@ -307,27 +309,16 @@ h2
 	border-radius: 0px 0px 4px 4px;
 }
 
-.teamates h4
+.topic
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 30px;
-	margin-bottom: 10px;
-	line-height: 1.18;
-	letter-spacing: 0.03em;
+	display: block;
+	margin: 0 auto;
+
 }
 
-.teamates p
+.portfolioh4
 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	line-height: 1.18;
-	font-size: 16px;
-	letter-spacing: 0.03em;
+	margin-left: 0;
 }
 
 footer
@@ -520,6 +511,13 @@ footer
 .link-p
 {
 	text-decoration: none;
+
+
+}
+
+.link-p img
+{
+	display: block;
 }
 
 
@@ -530,6 +528,8 @@ footer
 	font-size: 18px;
 	text-decoration: none;
 	color: var(--font-color);
+	margin: 0 auto;
+	padding-top: 20px;
 }
 
 .portfolio-p
@@ -571,6 +571,19 @@ footer
 
 }
 
+.topic
+{
+	display: block;
+	margin: 0 auto;
+	width: 370px;
+	height: 110px;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-right: 1px solid #EEEEEE;
+
+}
+
+
 
 
 .template
@@ -579,12 +592,19 @@ footer
 	width: 370px;
 	height: 404px;
 	margin-bottom: 30px;
-	border-bottom: 1px solid #EEEEEE;
+
 }
 
-.portfolioh4,
-.portfolio-p
+
+.topic .portfolioh4
 {
-	margin-left: 24px;
+
+	padding-left: 24px;
+
+}
+
+.topic .portfolio-p
+{
+	padding-left: 24px;
 
 }
