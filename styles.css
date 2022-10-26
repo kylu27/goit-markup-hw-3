@@ -30,6 +30,7 @@ body
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
 }
 
 
@@ -101,14 +102,6 @@ span
 }
 
 
-.topnav
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-}
-
 .logo
 {
 	font-family: 'Raleway', sans-serif;
@@ -118,6 +111,8 @@ span
 	line-height: 1.2;
 	font-size: 24px;
 	margin-right: 93px;
+	margin-top: 24px;
+	
 }
 
 .nav-links
@@ -142,19 +137,23 @@ span
 
 .container
 {
+
+display: flex;
+justify-content: center;
+text-align: center;
+max-width: 100%;
+margin: 0 auto;
+
+	
+}
+.main-title {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
-
-	margin: 0 auto;
 	height: 600px;
 	background-color: #2F303A;
-}
-
-.main-theme
-{
-	text-align: center;
+	width: 100%;
 }
 
 .main-theme
@@ -165,9 +164,9 @@ span
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
+	margin: 0 auto;
+	
 }
-
-
 
 button
 {
@@ -182,24 +181,20 @@ button
 	border-color: var(--extra-color);
 	line-height: 1.87;
 	letter-spacing: 0.06em;
+	margin-top: 30px;
 }
 
-.lorens
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-}
 
 .lorens-items
 {
 	display: flex;
 	list-style-type: none;
-	justify-content: center;
+	text-align: left;
 	gap: 30px;
-	width: 1200px;
+	width: 1170px;
+	height: 101px;
 	padding-left: 0;
+	margin-top: 94px;
 
 }
 
@@ -231,7 +226,7 @@ h4
 	flex-direction: column;
 	align-items: center;
 	width: 1200px;
-
+	margin-top: 94px;
 }
 
 .pictures
@@ -325,6 +320,7 @@ footer
 {
 	padding: 0;
 	background-color: #2F303A;
+	
 }
 
 .footer
@@ -335,6 +331,7 @@ footer
 	height: 252px;
 	width: 1200px;
 	margin: 0 auto;
+	text-align: left;
 }
 
 
